@@ -7,6 +7,17 @@ public class MainApp {
         animalList();
         bookList();
         tvShow();
+        theFinalCountdown();
+    }
+
+    private static void theFinalCountdown() {
+        Counter counter1 = new Counter();
+        Counter counter2 = new Counter(23);
+        counter1.increase();
+        counter1.decrease();
+        counter2.decrease(3);
+        counter2.increase(5);
+
     }
 
     private static void tvShow() {
